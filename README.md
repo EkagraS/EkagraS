@@ -13,7 +13,9 @@
 
 
 </div>
+
 ## 👨‍💻 About Me
+
 I am an Android Developer focused on building real-time and system level applications using Kotlin and Jetpack Compose. I have worked on projects ranging from IoT device controllers used in live environments to privacy-focused apps that analyze usage and permission patterns. I enjoy designing scalable architectures, handling background tasks reliably, and solving real-world problems through mobile systems.
 
 ## Tech Stack
