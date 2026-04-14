@@ -1,103 +1,101 @@
 <div align="center">
+  
+<h1 style="color:black;">Ekagra Shandilya</h1>
 
-# Ekagra Shandilya
-### Android Development • Jetpack Compose • Clean Architecture • MVVM • HILT • Unit testing
+<!-- Banner Image (Represents Android + System Work) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,100:2C5364&height=160&section=header&text=Android%20Developer&fontSize=35&fontColor=ffffff&animation=fadeIn"/>
+
+<br/>
+
+<img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=333333&center=true&vCenter=true&width=650&lines=Android+%7C+Kotlin+%7C+Jetpack+Compose;MVVM+%7C+Hilt+%7C+Room;Clean+Architecture+%7C+Unit+Testing" />
+
+<br/><br/>
+
+
 </div>
-
-I am an Android Developer specializing in building, mobile applications using Kotlin and Jetpack Compose. I use Modern Android Architecture, like MVVM and Clean Architecture to ensure that my codebases are scalable, testable, and easy to maintain. My experience ranges from engineering real-time IoT controllers that bridge the gap between mobile software and hardware for hundreds of live users to developing productivity systems that utilize background services to automate complex daily routines.
-
-On the engineering side, I work with in building responsive user interfaces with Material 3 to managing complex asynchronous logic using Kotlin Coroutines and reactive data streams like StateFlow and SharedFlow. I utilize Hilt for dependency injection and use Room for local data storage, Retrofit for REST API integration, and Firebase. To ensure application reliability, I implement automated background tasks through WorkManager and AlarmManager, while maintaining code quality through rigorous unit testing with JUnit and Mockito, memory leak detection with LeakCanary, and performance monitoring via the Android Profiler.
+## 👨‍💻 About Me
+I am an Android Developer focused on building real-time and system level applications using Kotlin and Jetpack Compose. I have worked on projects ranging from IoT device controllers used in live environments to privacy-focused apps that analyze usage and permission patterns. I enjoy designing scalable architectures, handling background tasks reliably, and solving real-world problems through mobile systems.
 
 ## Tech Stack
 
-📱 **Android Development**
-* **Jetpack Compose** (Modern UI)
-* **XML** (Legacy UI & View System)
-* **Material 3** (Design Standards)
-* **Lottie** (Vector Animations)
+* **Android: Jetpack Compose • XML • Android SDK**
+* **Architecture: MVVM • Clean Architecture**
+* **Core: Coroutines • Flow • Hilt**
+* **Data: Room • Firebase • Retrofit**
+* **Tools: WorkManager • LeakCanary • Android Profiler • Git**
 
-⚙️ **Core Engineering**
-* **Clean Architecture** (Modular Layering)
-* **MVVM Architecture** (UI & Logic Separation)
-* **Dependency Injection** (Hilt)
-* **Kotlin Coroutines** (Structured Concurrency)
-* **Flow** (Reactive State Handling)
-
-🔥 **Backend & Data Services**
-* **REST API Integration** (Retrofit & OkHttp)
-* **Firebase Authentication**
-* **Firebase Realtime Database** & **Firestore**
-* **Room Database** (Local Persistence)
-
-🧪 **Testing & Reliability**
-* **JUnit & Mockito** (Unit Testing ViewModels)
-* **WorkManager** (Background Task Reliability)
-* **LeakCanary** (Memory Leak Detection)
-* **Android Profiler** (Performance Monitoring)
 
 ## 🚀 Projects
 
-### 🔹 UniTrack  
-Android application designed to automate daily student workflows.
+### 🔹 AppWatch
+Android app that analyzes app usage, permissions and sensitive access patterns.
 
-#### What it does:
-- **Automates Attendance:** Tracks and organizes student attendance records with daily updates  
-- **Routine Management:** Manages study sessions and tasks using background scheduling  
-- **Data Sync:** Syncs user profiles and task data using Firebase Realtime Database  
-- **Background Automation:** Ensures reminders and cleanup tasks run even when the app is closed  
+#### ⚡ What it does:
+- Tracks per-app usage and permission access
+- Identifies unused permissions over 30+ days
+- Highlights apps with potential privacy risks  
 
-#### Technical Highlights:
-- Implemented structured state handling in Jetpack Compose for UI consistency  
-- Used WorkManager and AlarmManager for reliable background execution  
-- Optimized Firebase data fetching to reduce latency  
+#### ⚙️ How it works
+- UsageStatsManager collects app usage data
+- AppOpsManager tracks permission access history
+- Data stored locally using Room
+- WorkManager schedules periodic background updates
 
-#### Tech Stack:
-- Jetpack Compose
--  Kotlin
--  Firebase
--  WorkManager
--  AlarmManager
--  MVVM
-  
---
+#### 🛠 Tech Stack:
+**Kotlin • Jetpack Compose • Room • WorkManager**
 
-### 🔹 IoT WiFi Controller  
+### 🔹 UniTrack
+Android app that analyzes app usage, permissions and sensitive access patterns.
+
+#### ⚡ What it does:
+- Tracks attendance and study routines
+- Manages tasks with scheduled reminders
+- Syncs data using Firebase
+
+#### ⚙️ How it works
+- Structured state handling using Jetpack Compose
+- Firebase used for real-time sync and authentication
+- WorkManager + AlarmManager ensure reliable background execution
+- Handles lifecycle events like app kills and device reboots
+
+#### 🛠 Tech Stack:
+**Kotlin • Jetpack Compose • Firebase • WorkManager**
+
+### 🔹 IoT WiFi Controller
 Android application used to control NodeMCU-based devices over a local WiFi network.
 
-#### What it does:
-- **Real-time Control:** Sends commands from the phone to the device over WiFi  
-- **Custom Mapping:** Allows configurable input-to-command mapping  
-- **Local Communication:** Works over a local network without requiring internet  
+#### ⚡ What it does:
+- Real-time control of devices over local WiFi
+- Configurable input-to-command mapping
+- Works without internet (local network communication)
 
-#### Technical Highlights:
-- Implemented HTTP-based communication for sending commands to NodeMCU  
-- Handled unstable network conditions for smoother real-time control  
-- Designed a simple and responsive control interface for live usage  
+#### ⚙️ How it works
+- Sends HTTP requests from Android app to NodeMCU over local network
+- Maps UI inputs to configurable device commands
+- Handles unstable connections with retry logic
+- Designed lightweight response handling for real-time execution
 
-#### Tech Stack:
-- Kotlin  
-- XML  
-- NodeMCU (ESP8266)  
-- WiFi (Local Network Communication)  
+#### 🛠 Tech Stack:
+**Kotlin • XML • NodeMCU • WiFi • HTTP**
 
---
+### 🔹 Trip Companion
+Android application for managing trips with location tracking features.
 
-### 🔹 Trip Companion  
-Android application for managing trips with basic location tracking features.
+#### ⚡ What it does:
+- Allows basic organization of trip-related information
+- Stores trip and location data using Firebase
+- Tracks user location using Google Maps
 
-#### What it does:
-- **Location Tracking:** Tracks and updates user location using Google Maps  
-- **Data Storage:** Stores trip and location data using Firebase  
-- **Trip Management:** Allows basic organization of trip-related information  
+#### ⚙️ How it works
+- Google Maps API for location tracking
+- Firebase Realtime Database for syncing data
+- MVVM architecture for structured state handling
 
-#### Technical Highlights:
-- Integrated Google Maps API for location-based features  
-- Used Firebase Realtime Database for storing and syncing data  
-- Built using MVVM architecture for better code structure  
+#### 🛠 Tech Stack:
+**Kotlin • Jetpack Compose • Firebase • Google Maps API**
 
-#### Tech Stack:
-- Kotlin  
-- Jetpack Compose  
-- Firebase  
-- Google Maps API  
-- MVVM  
+## 🔹 Connect with Me
+
+#### GitHub: https://github.com/EkagraS
+#### LinkedIn: https://www.linkedin.com/in/ekagra-shandilya-3944a0256/
+
