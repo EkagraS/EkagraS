@@ -96,8 +96,7 @@ Android application for managing trips with location tracking features.
 #### 🛠 Tech Stack:
 **Kotlin • Jetpack Compose • Firebase • Google Maps API**
 
-## 🔹 Connect with Me
+## 🔗 Connect with Me
 
-#### GitHub: https://github.com/EkagraS
-#### LinkedIn: https://www.linkedin.com/in/ekagra-shandilya-3944a0256/
-
+GitHub: [Ekagra](https://github.com/EkagraS)  
+LinkedIn: [Ekagra Shandilya](https://www.linkedin.com/in/ekagra-shandilya-3944a0256/)
